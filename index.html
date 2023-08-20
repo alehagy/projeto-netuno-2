@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Netuno 2</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    <link rel="stylesheet" href="estilo/style.css">
+    <style>
+        nav {
+            background-color: #1A7FBD;
+            padding: 3px;
+            /*box-shadow: 1px 1px 1px black;*/
+            /*deslocament horizontal, deslocamento vertical e espalhamento*/
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+
+        hr {
+            color: #1A7FBD;
+        }
+
+        h1 {
+            background-color: #1A7FBD;
+            font-size: 25px;
+            color: #9ccfee;
+            width: 300px;
+            border: 1px solid darkgreen;
+
+            padding: 10px 20px;
+
+            margin-top: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 800px;
+            outline-width: 5px;
+        }
+
+        h1#hed01 {
+            background-color: white;
+            color: rgb(206, 204, 204);
+        }
+
+        h1#hed03 {
+            background-color: white;
+        }
+        h1#hed05 {
+            background-color: #f3f5f7;
+            color: #9ccfee;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        h2 {
+            background-color: white;
+            font-size: 18px;
+            color: black;
+            width: 300px;
+            border: 1px solid darkgreen;
+
+            padding: 10px 20px;
+
+            margin-top: 0px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            margin-left: 800px;
+            outline-width: 5px;
+        }
+
+        h2#hed04 {
+            width: 220px;
+            border-radius: 5px;
+            margin-top: 120px;
+            margin-left: 100px;
+            display: inline-block;
+        }
+        main {
+            background-color: white;
+            /*max-width: 400px;*/
+            /*padding: 10px;*/
+            margin: auto;
+            
+        }
+        p {
+            background-color: #1A7FBD;
+            color: white;
+            
+            border: 1px solid darkgreen;
+
+            padding: 10px 20px;
+
+            margin-top: 0px;
+            margin-right: 10px;
+            margin-bottom: 0px;
+            margin-left: 10px;
+            outline-width: 5px;
+        }
+        p#par00 {
+            background-color: white;
+            color: #1A7FBD;
+            width: 300px;
+            margin-left: 800px;
+        }
+        p#par10 {
+            background-color: #1A7FBD;
+            color: white;
+            height: 10px;
+            width: 300px;
+            margin-left: 800px;
+        }
+        p#par11 {
+            background-color: white;
+            color: #1A7FBD;
+            height: 10px;
+            width: 300px;
+            margin-left: 800px;
+        }
+        p#par01 {
+            background-color: #1A7FBD;
+            color: white;
+            height: 250px;
+            width: 300px;
+            border: 1px solid darkgreen;
+
+            padding: 10px 20px;
+
+            margin-top: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 800px;
+            outline-width: 5px;
+        }
+        p#par03 {
+            background-color: white;
+            color: black;
+            margin-left: 800px;
+            margin-bottom: 0px;
+            height: 150px;
+            width: 300px;
+        }
+        p#par04 {
+            background-color: white;
+            color: black;
+            height: 80px;
+            width: 220px;
+            border-radius: 5px;
+            margin-left: 100px;
+            
+        }
+
+        p#par05 {
+                      
+            height: 50px;
+            width: 300px;
+            border-radius: 5px;
+            margin-left: 100px;
+            display: inline-block;
+        }
+
+        div.formulario {
+
+            
+        }
+        div.campo {
+            border: 2 px solid white;
+            margin-left: 800px;
+        }
+
+        div.problema {
+            display: inline-block;
+            margin-left: -40px;
+        }
+
+        div.jornada {
+            background-color: #f3f5f7;
+            height: 400px;
+            width: 220px;
+
+        }
+
+        section.image {
+            background-color: #1A7FBD;
+            color: white;
+            
+            
+        }
+        section#img01 {
+    /*background-position: right center; */
+    /*imagem alunos*/
+    
+        height: 180vh;
+        width: 300vw;
+        background-image: url(imagens/bannertopo.png);
+
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba (0, 0, 0, 0.450);
+   
+        }
+        section#img02 {
+                /*imagem telas/dev*/
+                background-color: #1A7FBD;              
+                height: 150vh;
+                width: 92vw;
+
+                background-image: url(imagens/dev.png);
+        }
+
+        section#img03 {
+                /*imagem mulher*/
+                background-color: #f3f5f7;              
+                height: 260vh;
+                width: 90vw;
+                background-image: url(imagens/Container2.png);
+                      
+        }
+        section#img04 {
+            background-color: #f3f5f7;    
+        }
+        fieldset#field {
+            background-color: #1A7FBD;;
+            color: white;
+            width: 330px;
+            margin-left: 800px;
+        }
+        fieldset#prog {
+            background-color: white;
+            color: #1A7FBD;
+            width: 330px;
+            margin-left: 800px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4%;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href="#">O Projeto</a>
+            <a href="#">O Problema</a>
+            <a href="#">Sua Jornada</a>
+            <a href="#">Objetivos</a>
+            
+        </nav>
+        <! -- hr gera uma linha na tela --->
+        <hr>
+    </header>
+    <main>
+        
+        <section class="image" id="img01">
+            <div id="aluno">
+
+            </div>
+           <! --tela form --->
+           <div id="formulario">
+            <h1 id="hed01">Formulário de Cadastro</h1>
+                <p id="par00"><strong>Preencha seus dados</strong></p>
+            <form action="#" method="get" autocomplete="on">
+                <div class="campo">
+                    <span class="material-icons">person</span>
+                    <input type="text" name="name" id="iname" placeholder="Nome completo*" autocomplete="name" required maxlength="30">
+                    <label for="iname"></label>
+                </div>
+                <div class="campo">
+                    <span class="material-icons">mail</span>
+                    <input type="email" name="login" id="ilogin" placeholder="E-mail*" autocomplete="email" required maxlength="30">
+                    <label for="iemail"></label>
+                </div>
+                <div class="campo">
+                    <span class="material-icons">house</span>
+                    <select name="estado" id="iest">
+                        <option value="" selected>Estado*</option>
+                        
+                            <option value="MG">Minas Gerais</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">Sao Paulo</option>                 
+                            <option value="PE">Pernambuco</option>
+                            <option value="BA">Bahia</option>
+                            <option value="SE">Sergipe</option>               
+                    </select>
+                </div>
+                <div>
+                    <p id="par10"><strong>Conhecimento de Programação*</strong></p>
+                    <fieldset id="field">
+                        
+                        <input type="checkbox" name="html" id="ihmtl" checked> <label for="ihtml">HTML</label>
+                        <input type="checkbox" name="css" id="icss"> <label for="icss">CSS</label>
+                        <input type="checkbox" name="javascript" id="ijavascript"> <label for="ijavascript">JavaScript</label>
+                        <input type="checkbox" name="php" id="iphp"> <label for="iphp">PHP</label>
+                        <br>
+
+                        <input type="checkbox" name="net" id="inet"> <label for="inet">.NET</label>
+                        <input type="checkbox" name="vuejs" id="ivuejs"> <label for="ijvuejs">Vue.JS</label>
+                        <input type="checkbox" name="reactjs" id="ireactjsp"> <label for="ireactjs">ReactJs</label>
+                        <input type="checkbox" name="reactnative" id="ireactnative"> <label for="ihtml">React Native</label>
+                        <br>
+                        <input type="checkbox" name="node" id="inode"> <label for="inode">Node</label>
+                        <input type="checkbox" name="python" id="ipython"> <label for="ipython">Python</label>
+                        <input type="checkbox" name="flutter" id="iflutte"> <label for="iflutte">Flutter</label>
+                        <input type="checkbox" name="outras" id="ioutras> <label for="ioutras">Outras</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <p id="par11"><strong>Já trabalhou com desenvolvimento?</strong></p>
+                    <fieldset id="prog">                      
+                        <input type="radio" name="nprog" id="inprog" value="N" checked> <label for="inprog">Não</label><br>
+                        <input type="radio" name="sprog" id="isprog" value="F"> <label for="isprog">Sim</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <p>(*)Campos obrigatórios</p>
+                    <input type="submit" value="Enviar">
+                    <p>Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em politica de privacidade.</p>
+                </div>
+            </form>
+
+           </div>
+           
+        </section>
+
+        <section class="image" id="img02">
+            <! --tela tela/dev --->
+            <h1>O Projeto</h1>
+            <article>
+                <p class="paragraf" id="par01">
+                    Com o “novo normal” causado pela pandemia dos últimos anos, mais empresas no mundo todo tem aberto oportunidades no modelo Home Office. Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrado para trabalho em outros países. <br> <br> <strong>O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidade de carreira para novos profissionais.</strong>
+                </p>
+                
+            </article>
+            
+        </section >
+            
+        <section class="image" id="img03">
+            <! --tela mulher --->
+            <article>
+                <h1 class="header" id="hed03">O Problema</h1>
+                <h2>Falta de profissionais de TI no Mercado brasileiro: um problema que demanda atenção urgente.</h2>
+                <p class="paragraf" id="par03">
+                    Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na faixa de R$ 167 bilhões, de acordo com a Softex, uma organização social voltada ao fomento da área de TI. <br>
+                
+                    <strong>Um dos principais fatores dessa falta de profissionais e o êxodo de profissionais para o exterior.</strong>
+                </p>
+            </article>
+            <div class="problema">
+                <h2 class="header" id="hed04">Oportunidade</h2>
+                    <p class="paragraf" id="par04">
+                        Acreditamos que a combinação de interesse e dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.
+                    </p>
+            </div>
+            <div class="problema">
+                <h2 class="header" id="hed04">Comunidade</h2>
+                    <p class="paragraf" id="par04">
+                        Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluida e eficiente.
+                    </p>
+            </div>
+            <div class="problema">
+                <h2 class="header" id="hed04">Experiência Real</h2>
+                    <p class="paragraf" id="par04">
+                        Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.
+                    </p>
+            </div>
+            
+        </section>
+
+
+        <section id="img04">
+            <! --tela Jornada: 6 caixas c icon--->
+            <h1 id="hed05">Sua Jornada</h1>
+            
+            <div class="jornada">
+                
+                <p id="par05">
+                    
+                    Programas de 4 meses de duração, sendo 6 horas/dia  
+                </p>
+            </div>
+            <div class="jornada">
+                
+                <p id="par05">
+                    Do Zero ao Junior Promissor em 4 meses.  
+                </p>
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+
+            </div>
+            <div>
+                
+            </div>
+        </section>
+            <! --tela Objetivos: 3 caixas simples--->
+
+        <section>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemvideo</p>
+    </footer>
+</body>
+</html>
