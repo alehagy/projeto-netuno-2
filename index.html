@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="estilo/style.css">
     <style>
+       
         nav {
             background-color: #1A7FBD;
             padding: 3px;
             /*box-shadow: 1px 1px 1px black;*/
-            /*deslocament horizontal, deslocamento vertical e espalhamento*/
-
         }
 
         nav > a {
@@ -25,11 +24,11 @@
 
         nav > a:hover {
             text-decoration: underline;
-
         }
 
         hr {
-            color: #1A7FBD;
+            padding-top: 0px;
+            color: #2ea7f1;
         }
 
         h1 {
@@ -37,26 +36,31 @@
             font-size: 25px;
             color: #9ccfee;
             width: 300px;
-            border: 1px solid darkgreen;
+            
 
             padding: 10px 20px;
 
             margin-top: 5px;
             margin-right: 10px;
             margin-bottom: 10px;
-            margin-left: 800px;
+            margin-left: 1000px;
             outline-width: 5px;
         }
 
         h1#hed01 {
+            /*formulario cadastro*/
             background-color: white;
             color: rgb(206, 204, 204);
+            width: 315px;
+            padding-top: 200px;
+            
         }
 
         h1#hed03 {
             background-color: white;
         }
         h1#hed05 {
+            /*Cabecalho da Jornada*/
             background-color: #f3f5f7;
             color: #9ccfee;
             text-align: center;
@@ -69,14 +73,14 @@
             font-size: 18px;
             color: black;
             width: 300px;
-            border: 1px solid darkgreen;
+            
 
             padding: 10px 20px;
 
             margin-top: 0px;
             margin-right: 5px;
             margin-bottom: 5px;
-            margin-left: 800px;
+            margin-left: 1000px;
             outline-width: 5px;
         }
 
@@ -98,7 +102,7 @@
             background-color: #1A7FBD;
             color: white;
             
-            border: 1px solid darkgreen;
+           
 
             padding: 10px 20px;
 
@@ -111,8 +115,8 @@
         p#par00 {
             background-color: white;
             color: #1A7FBD;
-            width: 300px;
-            margin-left: 800px;
+            width: 315px;
+            margin-left: 1000px;
         }
         p#par10 {
             /*paragrafo conhecimento programacao*/
@@ -121,7 +125,7 @@
             height: 40px;
             width: 315px;
             padding-bottom: 10px;
-            margin-left: 800px;
+            margin-left: 1000px;
         }
         p#par11 {
             /*paragrafo trabalhou c desenvolvimento*/
@@ -129,7 +133,7 @@
             color: #1A7FBD;
             height: 50px;
             width: 315px;
-            margin-left: 800px;
+            margin-left: 1000px;
         }
         p#par20 {
             /*paragrafo enviar formulario*/
@@ -139,7 +143,7 @@
             text-align: center;
             margin-right: auto;
             margin-left: auto;
-            margin-left: 800px;
+            margin-left: 1000px;
         }
         p#par21 {
             /*paragrafo enviar formulario observacao*/
@@ -149,7 +153,19 @@
             text-align: center;
             margin-right: auto;
             margin-left: auto;
-            margin-left: 800px;
+            margin-left: 1000px;
+        }
+        p#par22 {
+            /*Botao Processo Seletivo*/
+            background-color: black;
+            color: white;
+            width: 450px;
+            border-radius: 5px;
+            font-size: larger;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            margin-left: 500px;
         }
         input#in1 {
             /*tecla enviar*/
@@ -157,7 +173,7 @@
             border-radius: 5px;
             width: 200px;
             color: white;
-            margin-left: 800px;
+            margin-left: 1000px;
         }
 
         p#par01 {
@@ -173,14 +189,14 @@
             margin-top: 5px;
             margin-right: 10px;
             margin-bottom: 10px;
-            margin-left: 800px;
+            margin-left: 1000px;
             outline-width: 5px;
         }
         p#par03 {
             /*paragrafo caixas a direita mulher*/
             background-color: white;
             color: black;
-            margin-left: 800px;
+            margin-left: 1000px;
             margin-bottom: 0px;
             height: 200px;
             width: 300px;
@@ -209,42 +225,56 @@
             /*icone da secao jornada*/
             background-color: white;
             color: #79a3bd;
-            
-            
         }
-        div.formulario {
+        span#sp02 {
+            /*icone do imput*/
+            background-color: white;
+            color: #79a3bd;
+        }
 
-            
-        }
+        
         div.campo {
+            /*input nome e email*/
+            background-color: white;
+            width: 315px;
             border: 2 px solid white;
-            margin-left: 800px;
+            margin-left: 1000px;
         }
-
+        div.campo1 {
+            /*input estado*/
+            background-color: white;
+            width: 315px;
+            border: 2 px solid white;
+            margin-left: 1000px;
+            padding-bottom: 20px;
+        }
         div.problema {
             display: inline-block;
             margin-left: -40px;
         }
 
         div.jornada {
+            /*boxes da jornada*/
             background-color: #f3f5f7;
             height: 150px;
             width: 300px;
             border: 10px;
             padding-top: 60px;
             padding-right: 70px;
-            
+            margin-left: 100px;
             margin-right: 10px;
             display: inline-block;
 
         }
         div.jornada2 {
+            /*boxes da jornada*/
             background-color: #f3f5f7;
-            height: 400px;
+            height: 200px;
             width: 300px;
             border: 10px;
             padding-top: 10px;
             padding-right: 70px;
+            margin-left: 100px;
             
             margin-right: 10px;
             display: inline-block;
@@ -261,7 +291,7 @@
     /*imagem alunos*/
     
         height: 180vh;
-        width: 300vw;
+        width: 100vw;
         background-image: url(imagens/bannertopo.png);
 
         border-radius: 20px;
@@ -292,16 +322,16 @@
             /*field das linguagens*/
             background-color: #1A7FBD;;
             color: white;
-            width: 330px;
+            width: 315px;
             height: 80px;
             padding-top: 10px;
-            margin-left: 800px;
+            margin-left: 1000px;
         }
         fieldset#prog {
             background-color: white;
             color: #1A7FBD;
-            width: 330px;
-            margin-left: 800px;
+            width: 315px;
+            margin-left: 1000px;
             
         }
         footer {
@@ -315,6 +345,7 @@
 </head>
 <body>
     <header>
+           
         <nav> 
             <a href="#">O Projeto</a>
             <a href="#">O Problema</a>
@@ -323,7 +354,7 @@
             
         </nav>
         <! -- hr gera uma linha na tela --->
-        <hr>
+        <hr id="hr1">
     </header>
     <main>
         
@@ -337,17 +368,17 @@
                 <p id="par00"><strong>Preencha seus dados</strong></p>
             <form action="#" method="get" autocomplete="on">
                 <div class="campo">
-                    <span class="material-symbols-outlined">person</span>
+                    <span class="material-symbols-outlined" id="sp02">person</span>
                     <input type="text" name="name" id="iname" placeholder="Nome completo*" autocomplete="name" required maxlength="30">
                     <label for="iname"></label>
                 </div>
                 <div class="campo">
-                    <span class="material-symbols-outlined">mail</span>
+                    <span class="material-symbols-outlined" id="sp02">mail</span>
                     <input type="email" name="login" id="ilogin" placeholder="E-mail*" autocomplete="email" required maxlength="30">
                     <label for="iemail"></label>
                 </div>
-                <div class="campo">
-                    <span class="material-symbols-outlined">house</span>
+                <div class="campo1">
+                    <span class="material-symbols-outlined" id="sp02">house</span>
                     <select name="estado" id="iest">
                         <option value="" selected>Estado*</option>
                         
@@ -383,9 +414,10 @@
                 <div>
                     <p id="par11"><strong>Já trabalhou com desenvolvimento?</strong></p>
                     <fieldset id="prog">                      
-                        <input type="radio" name="nprog" id="inprog" value="N" checked> <label for="inprog">Não</label><br>
-                        <input type="radio" name="sprog" id="isprog" value="F"> <label for="isprog">Sim</label>
+                        <input type="radio" name="prog" id="inprog" value="N" checked> <label for="inprog">Não</label>
+                        <input type="radio" name="prog" id="isprog" value="S"> <label for="isprog">Sim</label>
                     </fieldset>
+                    
                 </div>
                 <div>
                     <p id="par20">(*)Campos obrigatórios</p>
@@ -494,6 +526,13 @@
                         <span class="material-symbols-outlined" id="sp01">
                             target</span>
                         Variedade de áreas dentro da tecnologia.
+                    </p>
+                </div>
+                <div>
+                    <p id="par22">Quero me cadastrar para o <a href="Ex10pag002.html" rel="next">Processo seletivo</a><span class="material-symbols-outlined">
+                        trending_flat
+                        </span> 
+                        
                     </p>
                 </div>
             </div>
